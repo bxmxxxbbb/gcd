@@ -1,0 +1,35 @@
+{
+    "FileName" : "XMTest",
+    
+    "Struct" :
+    [
+        {
+            "Name" :"Person",
+            "Param" :
+            [
+                {
+                    "Type" : "int",
+                    "Name" : "Age"
+                },
+                {
+                    "Type" : "char *",
+                    "Name" :"Name"
+                }
+            ]
+        }
+    ],
+    "Function" :
+    [
+        {
+            "ReturnType" : "int",
+            "Name" : "Init",
+            "Param" :
+            [
+                {
+                    "Type" : "pPerson_s *",
+                    "Name" : "psPerson"
+                }
+            ]
+        }
+    ]
+}
